@@ -3,22 +3,13 @@ int a = int.Parse(Console.ReadLine() ?? "0");
 int b = 7;
 int c = 23;
 
-if(a % c == 0)
+if((a % c) + (a % b) == 0)
 {
-    Console.WriteLine (" Кратное 7 ");
+    Console.WriteLine (" Кратное  ");
 } 
 else
 {
-    Console.WriteLine (" Некратно 7 ");
+    Console.WriteLine (" Некратно ");
 }
 
-if(a % b == 0)
-{
-    Console.Writeline (" Кратное 23 ");
-}
-
-else
-{
-    Console.WriteLine (" Некратно 23 ");
-}
 

@@ -5,9 +5,7 @@ Console.Write("Введите b: ");
 int b = int.Parse(Console.ReadLine() ?? "0");
 Console.Write("Введите c: ");
 int c = int.Parse(Console.ReadLine() ?? "0");
-
 int max = a;
-
 if (a > max) max = a;
 if (b > max) max = b;
 if (c > max) max = c;
